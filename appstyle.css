@@ -96,3 +96,15 @@ option {
   border: none;
   outline: none;
 }
+.select-bg{
+  background-color: rgb(176, 239, 218);
+}
+.select-bar {
+  padding: 5px 8px;
+  border-radius: 10px;
+}
+select > option {
+  padding: 5px 8px;
+  border-radius: 10px;
+  
+}
