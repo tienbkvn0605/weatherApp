@@ -1,4 +1,5 @@
 const app_ID = "17de4b829b485eae9035d18c0247a890";
+// API
 
 const searchInput = document.querySelector("#search-input");
 const cityName = document.querySelector(".city-name");
@@ -7,8 +8,13 @@ const weatherState = document.querySelector(".weather-state");
 const weatherIcon = document.querySelector(".weather-icon");
 const windSpeed = document.querySelector(".wind-speed");
 const sunrise = document.querySelector(".sunrise");
+const sunriseTitle = document.querySelector(".sunrise-title");
+const sunsetTitle = document.querySelector(".sunset-title");
+const humidityTitle = document.querySelector(".humidity-title");
+const windTitle = document.querySelector(".wind-title");
 const sundown = document.querySelector(".sundown");
 const DEFAUL_VALUE = "--";
+const changeLanguage = document.querySelector(".select-bar");
 let lat, lon;
 
 searchInput.addEventListener("change", (e) => {
@@ -23,8 +29,15 @@ searchInput.addEventListener("change", (e) => {
       getTemperration();
     })
     .catch((err) => {
+      
       alert("can not get API value");
     });
+});
+changeLanguage.addEventListener("change", function() {
+  const option = querySelectorAll("option");
+  if(changeLanguage.value == "ja"){
+    sunriseTitle.textContent = "nihongo";
+  }
 });
 function getTemperration() {
   fetch(
