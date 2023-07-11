@@ -10,20 +10,23 @@ const sunrise = document.querySelector(".sunrise");
 const sunset = document.querySelector(".sunset");
 const humidity = document.querySelector(".humidity");
 const windSpeed = document.querySelector(".wind-speed");
-const sunriseJa = document.querySelector(".sunrise-title"); //日の出
-const sunsetJa = document.querySelector(".sunset-title"); // 日没
-const humidityJa = document.querySelector(".humidity-title"); //湿度
-const windSpeedJa = document.querySelector(".wind-title"); //風速
+const sunriseTitle = document.querySelector(".sunrise-title"); //日の出
+const sunsetTitle = document.querySelector(".sunset-title"); // 日没
+const humidityTitle = document.querySelector(".humidity-title"); //湿度
+const windSpeedTitle = document.querySelector(".wind-title"); //風速
 
 //
 
 let lang = "vi";
 const setLang = document.querySelector(".select-language");
-
+//set language
 setLang.addEventListener("click", (e) => {
   lang = `${e.target.value}`;
   if (e.target.value === "ja") {
-    sunriseJa.textContent = "日の出";
+    sunriseTitle.textContent = "日の出";
+    sunsetTitle.textContent = "日没";
+    humidityTitle.textContent = "湿度";
+    windSpeedTitle.textContent = "風速";
   }
   handleChange;
 });
