@@ -1,0 +1,30 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+.container {
+  width: 600px;
+  height: 800px;
+  background-color: rgb(116, 169, 169);
+  margin: 25px auto;
+  padding: 20px;
+}
+.search-bar {
+  margin: 0 auto;
+  border-bottom: 2px solid white;
+  padding: 0px 25px 5px;
+  align-items: center;
+  margin-bottom: 150px;
+}
+.search-input {
+  border: 0;
+  outline: none;
+  background-color: transparent;
+  color: white;
+}
+.name-city {
+  text-align: center;
+  font-size: 25px;
+}

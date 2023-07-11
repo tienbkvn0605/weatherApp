@@ -1,0 +1,42 @@
+*,
+*:before,
+*:after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+.container {
+  width: 600px;
+  height: 800px;
+  background-color: rgb(116, 169, 169);
+  margin: 25px auto;
+  padding: 20px;
+}
+.main-section {
+  text-align: center;
+}
+.search-bar {
+  margin: 0 auto;
+  border-bottom: 2px solid white;
+  padding-bottom: 5px;
+  align-items: center;
+  width: max-content;
+  margin-bottom: 150px;
+}
+.search-bar i {
+  font-size: 20px;
+  color: white;
+}
+.search-input {
+  border: 0;
+  outline: none;
+  background-color: transparent;
+  color: white;
+  font-size: 20px;
+}
+.name-city {
+  text-align: center;
+  font-size: 30px;
+  color: white;
+}

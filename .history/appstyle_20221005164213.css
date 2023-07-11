@@ -1,0 +1,13 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+.container {
+  width: 600px;
+  height: 800px;
+  display: block;
+  background-color: rgb(116, 169, 169);
+  color: white;
+}
