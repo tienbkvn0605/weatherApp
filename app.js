@@ -13,7 +13,7 @@ const sunsetTitle = document.querySelector(".sunset-title");
 const humidityTitle = document.querySelector(".humidity-title");
 const windTitle = document.querySelector(".wind-title");
 const sundown = document.querySelector(".sundown");
-const DEFAUL_VALUE = "--";
+const DEFAUL_VALUE = "aa";
 const changeLanguage = document.querySelector(".select-bar");
 let lat, lon;
 
