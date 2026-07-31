@@ -1,6 +1,8 @@
 const app_ID = "17de4b829b485eae9035d18c0247a890";
 // API
 
+//feature dev-1
+
 const searchInput = document.querySelector("#search-input");
 const cityName = document.querySelector(".city-name");
 const temperature = document.querySelector(".temperature");
