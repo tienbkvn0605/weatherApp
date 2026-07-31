@@ -15,7 +15,7 @@ const sunsetTitle = document.querySelector(".sunset-title"); // 日没
 const humidityTitle = document.querySelector(".humidity-title"); //湿度
 const windSpeedTitle = document.querySelector(".wind-title"); //風速
 
-//
+//feature dev-1
 
 let lang = "vi";
 const setLang = document.querySelector(".select-language");
